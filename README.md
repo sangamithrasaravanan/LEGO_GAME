@@ -1,5 +1,7 @@
 USER STORY:LEGO BLOCK GAME
+
 OBJECTIVE:As a player, I aim to creatively stack LEGO blocks, allowing for various shapes with the same colors to be placed on top of each other, enabling the construction of diverse structures.
+
 SCENERIO Initial State Setup:
 1. Upon launching the game,
 2. When it begins, all LEGO blocks are concealed.
@@ -15,6 +17,7 @@ Interactions with Placed LEGO Blocks:
 2. When another Color Box is double-clicked from the list,
 3. As a result, a clone is generated on the LEGO block itself, necessitating the user to drag it for visibility.
 4. Consequently, players can move these blocks onto the tiles and construct them on top of each other.
+   
 ACCEPTANCE CRITERIA :
 1. At the outset of the game, all LEGO blocks are initially hidden.
 2. Upon game commencement, a Color Box list is presented for player selection.
