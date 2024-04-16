@@ -1,0 +1,1624 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="542.9999999999998" scrolly="282.5" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="479.44370487694573" scrolly="-2104.151472330603" scale="0.7462153966366275">
+    <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id="HLw1*Pp19J~m2u46R?vg" type="">dictred</variable>
+      <variable id="mBc7?8n;@1WgMgWKQgK/" type="">cloneblack</variable>
+      <variable id="16u[4Y#%ilOtTkU?;Yes" type="">cloneyellow</variable>
+      <variable id="Aeo{xUs!_KYI_F`*:/B$" type="">cloneblue</variable>
+      <variable id="%S;0(6Hw=-+c(]cer~s," type="">clonered</variable>
+      <variable id="`{XP[S#tVCiHN?@Hi`^y" type="">dictblack</variable>
+      <variable id="3W_(MV4^;:IQ?o0-FQnn" type="">dictyellow</variable>
+      <variable id="Al3[r?$a?XQ/y]61u8/~" type="">dictblue</variable>
+    </variables>
+    <block xmlns="https://developers.google.com/blockly/xml" type="hide" id="/Fp+5t9aW!AD=kB#$~#e" x="-610" y="-310">
+      <value name="VALUE">
+        <shadow type="objectList" id="V[,vP{ZsL41Z.Mjo()h9">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="allObjectList" id="BpPaDV~G%X@P+fG)sf/-"/>
+      </value>
+      <next>
+        <block type="show" id="G)lB;F{Z@90V,+aJr?F-">
+          <value name="VALUE">
+            <shadow type="objectList" id="b+IF0nXbby=ceYqiKh(?">
+              <field name="FIELDNAME">Plane</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="show" id="d`YjC-1XJ2?GkRju:(6*">
+              <value name="VALUE">
+                <shadow type="objectList" id="w2Sf5WSzhMXlc/{{s[lG">
+                  <field name="FIELDNAME">Cube.003</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="addHTMLElement" id="_%Xki.dGd0r3AJaX9D/:">
+                  <field name="ELEMENT">button</field>
+                  <field name="MODE">TO</field>
+                  <field name="PARENT">FALSE</field>
+                  <value name="ID">
+                    <shadow type="text" id="4/ZVx}A`n+SDp(E7Opo2">
+                      <field name="TEXT">Black</field>
+                    </shadow>
+                  </value>
+                  <value name="TARGET_ID">
+                    <shadow type="DOMObjectSelector" id="G^#9`2abgp+w+*q%$4(+">
+                      <field name="DOM_OBJECT">CONTAINER</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="setHTMLElemStyle" id="N%FgCFeOymd]4,_*N|T*">
+                      <field name="PROPERTY">position</field>
+                      <field name="PARENT">FALSE</field>
+                      <value name="VALUE">
+                        <block type="text" id="{axpgyq#T,1g|t1DxR_o">
+                          <field name="TEXT">static</field>
+                        </block>
+                      </value>
+                      <value name="ID">
+                        <shadow type="text" id="|W,p-!|:rxxXdpIP=a~h">
+                          <field name="TEXT">Black</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="setHTMLElemStyle" id=".-c$=gRoaIqRoZd,_BU}">
+                          <field name="PROPERTY">backgroundColor</field>
+                          <field name="PARENT">FALSE</field>
+                          <value name="VALUE">
+                            <block type="text" id="U9gAv_Xh*hoc}U-[dg.9">
+                              <field name="TEXT">Black</field>
+                            </block>
+                          </value>
+                          <value name="ID">
+                            <shadow type="text" id="+*::P^?@w@J9$x[j?eP2">
+                              <field name="TEXT">Black</field>
+                            </shadow>
+                          </value>
+                          <next>
+                            <block type="setHTMLElemStyle" id="nVDQ,G/Yd0t(evZ6HcU:">
+                              <field name="PROPERTY">height</field>
+                              <field name="PARENT">FALSE</field>
+                              <value name="VALUE">
+                                <block type="text" id=":Jygf(aNwj*Dzp1Q6)d(">
+                                  <field name="TEXT">60px</field>
+                                </block>
+                              </value>
+                              <value name="ID">
+                                <shadow type="text" id="wJ^bOlEk|IsL|[EWmTa}">
+                                  <field name="TEXT">Black</field>
+                                </shadow>
+                              </value>
+                              <next>
+                                <block type="setHTMLElemStyle" id="T`P/%3(JGfkD.+2.|Ofa">
+                                  <field name="PROPERTY">width</field>
+                                  <field name="PARENT">FALSE</field>
+                                  <value name="VALUE">
+                                    <block type="text" id="{nqW*lNpP{K60VqkRD|=">
+                                      <field name="TEXT">60px</field>
+                                    </block>
+                                  </value>
+                                  <value name="ID">
+                                    <shadow type="text" id="0yEpj+nC=uh!e4J56BKk">
+                                      <field name="TEXT">Black</field>
+                                    </shadow>
+                                  </value>
+                                  <next>
+                                    <block type="eventHTMLElem" id="MmBjU{d#3vIJ-/gXN1p~">
+                                      <field name="EVENT">click</field>
+                                      <field name="PARENT">FALSE</field>
+                                      <value name="ID">
+                                        <shadow type="text" id="XitJW]jP3D#HvmhlzGIT">
+                                          <field name="TEXT">Black</field>
+                                        </shadow>
+                                      </value>
+                                      <statement name="DO">
+                                        <block type="show" id="AMTU?dSJnY-nwUsO(E8u">
+                                          <value name="VALUE">
+                                            <shadow type="objectList" id="4H%vWn=LuT+h0,_L.$v.">
+                                              <field name="FIELDNAME">Cylinder.021</field>
+                                            </shadow>
+                                          </value>
+                                        </block>
+                                      </statement>
+                                      <next>
+                                        <block type="whenDraggedOver" id="4ZowuAAvQ.S1(@N?vwOB">
+                                          <field name="X_RAY">FALSE</field>
+                                          <field name="LEFT_BUTTON">TRUE</field>
+                                          <field name="MIDDLE_BUTTON">TRUE</field>
+                                          <field name="RIGHT_BUTTON">TRUE</field>
+                                          <value name="VALUE">
+                                            <shadow type="objectList" id="-5yj8,HW`-k~IZ%jDuLG">
+                                              <field name="FIELDNAME">Cylinder.021</field>
+                                            </shadow>
+                                          </value>
+                                          <statement name="DO_MOVE">
+                                            <block type="dragMove" id="iT9|OC4M)Mf#~,`a%kK/">
+                                              <field name="MODE">XYZ</field>
+                                              <value name="TARGETOBJ">
+                                                <shadow type="objectList" id="3l!@;/zfu+?LFi2y}cJ|">
+                                                  <field name="FIELDNAME">Cylinder.021</field>
+                                                </shadow>
+                                              </value>
+                                            </block>
+                                          </statement>
+                                          <next>
+                                            <block type="addHTMLElement" id="j(EcFaC8x)AHIKqMAMC~">
+                                              <field name="ELEMENT">button</field>
+                                              <field name="MODE">TO</field>
+                                              <field name="PARENT">FALSE</field>
+                                              <value name="ID">
+                                                <shadow type="text" id="[!xjF!szo$=-hnixa[S7">
+                                                  <field name="TEXT">Blue</field>
+                                                </shadow>
+                                              </value>
+                                              <value name="TARGET_ID">
+                                                <shadow type="DOMObjectSelector" id="U/0c)d01^P?Sv^i@JX;a">
+                                                  <field name="DOM_OBJECT">CONTAINER</field>
+                                                </shadow>
+                                              </value>
+                                              <next>
+                                                <block type="setHTMLElemStyle" id="MD3,L-a_;sD[*C+Hq(u5">
+                                                  <field name="PROPERTY">position</field>
+                                                  <field name="PARENT">FALSE</field>
+                                                  <value name="VALUE">
+                                                    <block type="text" id="@XV`UtGx2Rno]=+_L,jO">
+                                                      <field name="TEXT">static</field>
+                                                    </block>
+                                                  </value>
+                                                  <value name="ID">
+                                                    <shadow type="text" id=";ugYfYYaZGsdv-WwwGJr">
+                                                      <field name="TEXT">Blue</field>
+                                                    </shadow>
+                                                  </value>
+                                                  <next>
+                                                    <block type="setHTMLElemStyle" id="iw4~bXl9]Ynhi]|pQv{j">
+                                                      <field name="PROPERTY">backgroundColor</field>
+                                                      <field name="PARENT">FALSE</field>
+                                                      <value name="VALUE">
+                                                        <block type="text" id="ayJHs%3FW!)%0%@PJWvd">
+                                                          <field name="TEXT">Blue</field>
+                                                        </block>
+                                                      </value>
+                                                      <value name="ID">
+                                                        <shadow type="text" id="ROye:b/:?(9JJ(Ol:pVS">
+                                                          <field name="TEXT">Blue</field>
+                                                        </shadow>
+                                                      </value>
+                                                      <next>
+                                                        <block type="setHTMLElemStyle" id="/-k*y.I*URm%Nji7v#EE">
+                                                          <field name="PROPERTY">height</field>
+                                                          <field name="PARENT">FALSE</field>
+                                                          <value name="VALUE">
+                                                            <block type="text" id="z-`7hgc#(au_BPijFF2Z">
+                                                              <field name="TEXT">60px</field>
+                                                            </block>
+                                                          </value>
+                                                          <value name="ID">
+                                                            <shadow type="text" id="+W!ntkIR~F+*i8Gl{!ua">
+                                                              <field name="TEXT">Blue</field>
+                                                            </shadow>
+                                                          </value>
+                                                          <next>
+                                                            <block type="setHTMLElemStyle" id="u*q}lX7g.H_OMGGRof;(">
+                                                              <field name="PROPERTY">width</field>
+                                                              <field name="PARENT">FALSE</field>
+                                                              <value name="VALUE">
+                                                                <block type="text" id="`,$)%}S05o7~s^yzNb+c">
+                                                                  <field name="TEXT">60px</field>
+                                                                </block>
+                                                              </value>
+                                                              <value name="ID">
+                                                                <shadow type="text" id="6S=*Et+2`6h[j@ITDH=#">
+                                                                  <field name="TEXT">Blue</field>
+                                                                </shadow>
+                                                              </value>
+                                                              <next>
+                                                                <block type="eventHTMLElem" id="SAbD!wgm[-lJag/oBY~8">
+                                                                  <field name="EVENT">click</field>
+                                                                  <field name="PARENT">FALSE</field>
+                                                                  <value name="ID">
+                                                                    <shadow type="text" id=".cFI.eieOSTeAOtm)Xgl">
+                                                                      <field name="TEXT">Blue</field>
+                                                                    </shadow>
+                                                                  </value>
+                                                                  <statement name="DO">
+                                                                    <block type="show" id="t{RM;M`Gwfw{ECnO2yZT">
+                                                                      <value name="VALUE">
+                                                                        <shadow type="objectList" id="SIb@_9|BALQ^j1L%%Ts)">
+                                                                          <field name="FIELDNAME">Cylinder.005</field>
+                                                                        </shadow>
+                                                                      </value>
+                                                                    </block>
+                                                                  </statement>
+                                                                  <next>
+                                                                    <block type="whenDraggedOver" id="K:X`)#%PL-46$1QZC/qg">
+                                                                      <field name="X_RAY">FALSE</field>
+                                                                      <field name="LEFT_BUTTON">TRUE</field>
+                                                                      <field name="MIDDLE_BUTTON">TRUE</field>
+                                                                      <field name="RIGHT_BUTTON">TRUE</field>
+                                                                      <value name="VALUE">
+                                                                        <shadow type="objectList" id="LQLhT!.AzQb#qv-pw{2|">
+                                                                          <field name="FIELDNAME">Cylinder.005</field>
+                                                                        </shadow>
+                                                                      </value>
+                                                                      <statement name="DO_MOVE">
+                                                                        <block type="dragMove" id="%?YL|qA6UfQ^[zGM2_8,">
+                                                                          <field name="MODE">XYZ</field>
+                                                                          <value name="TARGETOBJ">
+                                                                            <shadow type="objectList" id="n.x|NY9;X7@6aLDaf6E8">
+                                                                              <field name="FIELDNAME">Cylinder.005</field>
+                                                                            </shadow>
+                                                                          </value>
+                                                                        </block>
+                                                                      </statement>
+                                                                      <next>
+                                                                        <block type="addHTMLElement" id="*jOuHV3uEm@v]J/yJGQC">
+                                                                          <field name="ELEMENT">button</field>
+                                                                          <field name="MODE">TO</field>
+                                                                          <field name="PARENT">FALSE</field>
+                                                                          <value name="ID">
+                                                                            <shadow type="text" id="*Fd;_fE;[y#C}Sveua6*">
+                                                                              <field name="TEXT">yellow</field>
+                                                                            </shadow>
+                                                                          </value>
+                                                                          <value name="TARGET_ID">
+                                                                            <shadow type="DOMObjectSelector" id="^FOZEG~Vx46n2FVvCI0!">
+                                                                              <field name="DOM_OBJECT">CONTAINER</field>
+                                                                            </shadow>
+                                                                          </value>
+                                                                          <next>
+                                                                            <block type="setHTMLElemStyle" id="bdP37AXA|_$q4z3Y1mb7">
+                                                                              <field name="PROPERTY">position</field>
+                                                                              <field name="PARENT">FALSE</field>
+                                                                              <value name="VALUE">
+                                                                                <block type="text" id="3drcR/MT*2_kD%TyeEv)">
+                                                                                  <field name="TEXT">static</field>
+                                                                                </block>
+                                                                              </value>
+                                                                              <value name="ID">
+                                                                                <shadow type="text" id="|2`tMw,=|8/Ivo+`i5*t">
+                                                                                  <field name="TEXT">yellow</field>
+                                                                                </shadow>
+                                                                              </value>
+                                                                              <next>
+                                                                                <block type="setHTMLElemStyle" id="-$)t9+GV4F3~*WG(pWKs">
+                                                                                  <field name="PROPERTY">backgroundColor</field>
+                                                                                  <field name="PARENT">FALSE</field>
+                                                                                  <value name="VALUE">
+                                                                                    <block type="text" id="XS-m|KA(}U2*~E5!:[o5">
+                                                                                      <field name="TEXT">yellow</field>
+                                                                                    </block>
+                                                                                  </value>
+                                                                                  <value name="ID">
+                                                                                    <shadow type="text" id="~Jr;3RDCXHt~H_|Zi$4/">
+                                                                                      <field name="TEXT">yellow</field>
+                                                                                    </shadow>
+                                                                                  </value>
+                                                                                  <next>
+                                                                                    <block type="setHTMLElemStyle" id=":c/at{:aWTc8Vz2K:##m">
+                                                                                      <field name="PROPERTY">height</field>
+                                                                                      <field name="PARENT">FALSE</field>
+                                                                                      <value name="VALUE">
+                                                                                        <block type="text" id="4XEX8vKK2WnXR*czyhlz">
+                                                                                          <field name="TEXT">60px</field>
+                                                                                        </block>
+                                                                                      </value>
+                                                                                      <value name="ID">
+                                                                                        <shadow type="text" id="sYp{U=Zn}dQti-x=n1@:">
+                                                                                          <field name="TEXT">yellow</field>
+                                                                                        </shadow>
+                                                                                      </value>
+                                                                                      <next>
+                                                                                        <block type="setHTMLElemStyle" id=":*s^O=V{z^L6idm=JS,`">
+                                                                                          <field name="PROPERTY">width</field>
+                                                                                          <field name="PARENT">FALSE</field>
+                                                                                          <value name="VALUE">
+                                                                                            <block type="text" id="2Yq6NHyBLeea{)@}*r|~">
+                                                                                              <field name="TEXT">60px</field>
+                                                                                            </block>
+                                                                                          </value>
+                                                                                          <value name="ID">
+                                                                                            <shadow type="text" id="a5ss($bwS(=3N~Gm}B,e">
+                                                                                              <field name="TEXT">yellow</field>
+                                                                                            </shadow>
+                                                                                          </value>
+                                                                                          <next>
+                                                                                            <block type="eventHTMLElem" id="Q5L(i#Tr4^!O=hnY,.Wt">
+                                                                                              <field name="EVENT">click</field>
+                                                                                              <field name="PARENT">FALSE</field>
+                                                                                              <value name="ID">
+                                                                                                <shadow type="text" id="mnf.~l+_#t?8A2+T/9mE">
+                                                                                                  <field name="TEXT">yellow</field>
+                                                                                                </shadow>
+                                                                                              </value>
+                                                                                              <statement name="DO">
+                                                                                                <block type="show" id="1!85T6-1IaTg?cICX-hZ">
+                                                                                                  <value name="VALUE">
+                                                                                                    <shadow type="objectList" id="W4:x/*u26kKx]iZEdu/c">
+                                                                                                      <field name="FIELDNAME">Cylinder.006</field>
+                                                                                                    </shadow>
+                                                                                                  </value>
+                                                                                                </block>
+                                                                                              </statement>
+                                                                                              <next>
+                                                                                                <block type="whenDraggedOver" id="UD%dgFR,*Sgi]{OHsRk*">
+                                                                                                  <field name="X_RAY">FALSE</field>
+                                                                                                  <field name="LEFT_BUTTON">TRUE</field>
+                                                                                                  <field name="MIDDLE_BUTTON">TRUE</field>
+                                                                                                  <field name="RIGHT_BUTTON">TRUE</field>
+                                                                                                  <value name="VALUE">
+                                                                                                    <shadow type="objectList" id="rzAZ#_0#W/7Jx86.K$Oy">
+                                                                                                      <field name="FIELDNAME">Cylinder.006</field>
+                                                                                                    </shadow>
+                                                                                                  </value>
+                                                                                                  <statement name="DO_MOVE">
+                                                                                                    <block type="dragMove" id="x%m{r31,OpBk_T*cZ4y7">
+                                                                                                      <field name="MODE">XYZ</field>
+                                                                                                      <value name="TARGETOBJ">
+                                                                                                        <shadow type="objectList" id="Y?acDIG_o(uR(/L[4mkY">
+                                                                                                          <field name="FIELDNAME">Cylinder.006</field>
+                                                                                                        </shadow>
+                                                                                                      </value>
+                                                                                                    </block>
+                                                                                                  </statement>
+                                                                                                  <next>
+                                                                                                    <block type="addHTMLElement" id="[bfa5a{p){624s+!dS45">
+                                                                                                      <field name="ELEMENT">button</field>
+                                                                                                      <field name="MODE">TO</field>
+                                                                                                      <field name="PARENT">FALSE</field>
+                                                                                                      <value name="ID">
+                                                                                                        <shadow type="text" id="9,E|Lqhv^j@g6$k5iMyZ">
+                                                                                                          <field name="TEXT">Red</field>
+                                                                                                        </shadow>
+                                                                                                      </value>
+                                                                                                      <value name="TARGET_ID">
+                                                                                                        <shadow type="DOMObjectSelector" id="=lp@ZAWE0x;WP+H+^X31">
+                                                                                                          <field name="DOM_OBJECT">CONTAINER</field>
+                                                                                                        </shadow>
+                                                                                                      </value>
+                                                                                                      <next>
+                                                                                                        <block type="setHTMLElemStyle" id="x+i5Xk{on_VSVT!pc9)S">
+                                                                                                          <field name="PROPERTY">position</field>
+                                                                                                          <field name="PARENT">FALSE</field>
+                                                                                                          <value name="VALUE">
+                                                                                                            <block type="text" id="MIphUA7{X+8fby5x1f)]">
+                                                                                                              <field name="TEXT">static</field>
+                                                                                                            </block>
+                                                                                                          </value>
+                                                                                                          <value name="ID">
+                                                                                                            <shadow type="text" id="`*NgCZ(ow1.Ohbh$4S4o">
+                                                                                                              <field name="TEXT">Red</field>
+                                                                                                            </shadow>
+                                                                                                          </value>
+                                                                                                          <next>
+                                                                                                            <block type="setHTMLElemStyle" id="BWHXm.TN_hqep^$;J@zt">
+                                                                                                              <field name="PROPERTY">backgroundColor</field>
+                                                                                                              <field name="PARENT">FALSE</field>
+                                                                                                              <value name="VALUE">
+                                                                                                                <block type="text" id="Oe85-jPq?=|JT.b%mn0y">
+                                                                                                                  <field name="TEXT">Red</field>
+                                                                                                                </block>
+                                                                                                              </value>
+                                                                                                              <value name="ID">
+                                                                                                                <shadow type="text" id="zzjTb1(dS:|jfX|QP8YZ">
+                                                                                                                  <field name="TEXT">Red</field>
+                                                                                                                </shadow>
+                                                                                                              </value>
+                                                                                                              <next>
+                                                                                                                <block type="setHTMLElemStyle" id="r*OCSBRBVdSn(tLpd3aA">
+                                                                                                                  <field name="PROPERTY">height</field>
+                                                                                                                  <field name="PARENT">FALSE</field>
+                                                                                                                  <value name="VALUE">
+                                                                                                                    <block type="text" id="{(d]!2_{1lAbWQH,CzlY">
+                                                                                                                      <field name="TEXT">60px</field>
+                                                                                                                    </block>
+                                                                                                                  </value>
+                                                                                                                  <value name="ID">
+                                                                                                                    <shadow type="text" id=",@Z~XrsHmuJY*vcZv:r;">
+                                                                                                                      <field name="TEXT">Red</field>
+                                                                                                                    </shadow>
+                                                                                                                  </value>
+                                                                                                                  <next>
+                                                                                                                    <block type="setHTMLElemStyle" id="1Y{$k1%4pV,cJ!*]TNfb">
+                                                                                                                      <field name="PROPERTY">width</field>
+                                                                                                                      <field name="PARENT">FALSE</field>
+                                                                                                                      <value name="VALUE">
+                                                                                                                        <block type="text" id="QEE]*|Df}I9`%aqbJYe`">
+                                                                                                                          <field name="TEXT">60px</field>
+                                                                                                                        </block>
+                                                                                                                      </value>
+                                                                                                                      <value name="ID">
+                                                                                                                        <shadow type="text" id="RpSGdxV(O}ksKbzUKTa|">
+                                                                                                                          <field name="TEXT">Red</field>
+                                                                                                                        </shadow>
+                                                                                                                      </value>
+                                                                                                                      <next>
+                                                                                                                        <block type="eventHTMLElem" id="ykRQP~`t/bG`KU%22BCs">
+                                                                                                                          <field name="EVENT">click</field>
+                                                                                                                          <field name="PARENT">FALSE</field>
+                                                                                                                          <value name="ID">
+                                                                                                                            <shadow type="text" id="S58cZ,OBYuYV]M:Xl,4-">
+                                                                                                                              <field name="TEXT">Red</field>
+                                                                                                                            </shadow>
+                                                                                                                          </value>
+                                                                                                                          <statement name="DO">
+                                                                                                                            <block type="show" id="zV:_n45X?.c{A@D=,Ly2">
+                                                                                                                              <value name="VALUE">
+                                                                                                                                <shadow type="objectList" id="1YI1*204=gh[x]i7tizU">
+                                                                                                                                  <field name="FIELDNAME">Cylinder.001</field>
+                                                                                                                                </shadow>
+                                                                                                                              </value>
+                                                                                                                            </block>
+                                                                                                                          </statement>
+                                                                                                                          <next>
+                                                                                                                            <block type="whenDraggedOver" id="suy`;P|sW[p~ZTo7HXfz">
+                                                                                                                              <field name="X_RAY">FALSE</field>
+                                                                                                                              <field name="LEFT_BUTTON">TRUE</field>
+                                                                                                                              <field name="MIDDLE_BUTTON">TRUE</field>
+                                                                                                                              <field name="RIGHT_BUTTON">TRUE</field>
+                                                                                                                              <value name="VALUE">
+                                                                                                                                <shadow type="objectList" id=";^5]ns4T9Nq1ZX.Q?,ju">
+                                                                                                                                  <field name="FIELDNAME">Cylinder.001</field>
+                                                                                                                                </shadow>
+                                                                                                                              </value>
+                                                                                                                              <statement name="DO_MOVE">
+                                                                                                                                <block type="dragMove" id="tzuVm(mRE![@1ENPj;8!">
+                                                                                                                                  <field name="MODE">XYZ</field>
+                                                                                                                                  <value name="TARGETOBJ">
+                                                                                                                                    <shadow type="objectList" id=")Dy4H4sAbW!^!9KbP.[z">
+                                                                                                                                      <field name="FIELDNAME">Cylinder.001</field>
+                                                                                                                                    </shadow>
+                                                                                                                                  </value>
+                                                                                                                                </block>
+                                                                                                                              </statement>
+                                                                                                                            </block>
+                                                                                                                          </next>
+                                                                                                                        </block>
+                                                                                                                      </next>
+                                                                                                                    </block>
+                                                                                                                  </next>
+                                                                                                                </block>
+                                                                                                              </next>
+                                                                                                            </block>
+                                                                                                          </next>
+                                                                                                        </block>
+                                                                                                      </next>
+                                                                                                    </block>
+                                                                                                  </next>
+                                                                                                </block>
+                                                                                              </next>
+                                                                                            </block>
+                                                                                          </next>
+                                                                                        </block>
+                                                                                      </next>
+                                                                                    </block>
+                                                                                  </next>
+                                                                                </block>
+                                                                              </next>
+                                                                            </block>
+                                                                          </next>
+                                                                        </block>
+                                                                      </next>
+                                                                    </block>
+                                                                  </next>
+                                                                </block>
+                                                              </next>
+                                                            </block>
+                                                          </next>
+                                                        </block>
+                                                      </next>
+                                                    </block>
+                                                  </next>
+                                                </block>
+                                              </next>
+                                            </block>
+                                          </next>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="UbUWMDFdA++te%x33gkN" x="50" y="110">
+      <field name="EVENT">dblclick</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="SSEoMxKMm`0{=Q8qCuq+">
+          <field name="TEXT">Black</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="variables_set" id="dER46d)v,KVz(3?,q000">
+          <field name="VAR" id="mBc7?8n;@1WgMgWKQgK/">cloneblack</field>
+          <value name="VALUE">
+            <block type="cloneObject" id="Fq6m/m@w}8T$~.n@a^j~">
+              <value name="OBJECTINPUT">
+                <shadow type="objectList" id="XK=PYzd$);)+=56%P{Bh">
+                  <field name="FIELDNAME">Cylinder.021</field>
+                </shadow>
+              </value>
+            </block>
+          </value>
+          <next>
+            <block type="show" id="F^lfPp-.Ef93LAsAxHm^">
+              <value name="VALUE">
+                <shadow type="objectList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="variables_get" id="BC%_|RJ|KmjPj4J|_[Z$">
+                  <field name="VAR" id="mBc7?8n;@1WgMgWKQgK/">cloneblack</field>
+                </block>
+              </value>
+              <next>
+                <block type="procedures_callnoreturn" id="dSA1%BFQ-MmX(TBBWql:">
+                  <mutation name="drag1"/>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <next>
+        <block type="eventHTMLElem" id=".~gFyjEe,=P.byt%O^^a">
+          <field name="EVENT">dblclick</field>
+          <field name="PARENT">FALSE</field>
+          <value name="ID">
+            <shadow type="text" id="o/E;2AS|DASZ}qi-ry?J">
+              <field name="TEXT">yellow</field>
+            </shadow>
+          </value>
+          <statement name="DO">
+            <block type="variables_set" id=":Tovhq?e~oW_;Ofa+mLm">
+              <field name="VAR" id="16u[4Y#%ilOtTkU?;Yes">cloneyellow</field>
+              <value name="VALUE">
+                <block type="cloneObject" id="SEt^j}))?HPc8ZnGycfZ">
+                  <value name="OBJECTINPUT">
+                    <shadow type="objectList" id="OFfmGmp,vBx2CoKF%DDi">
+                      <field name="FIELDNAME">Cylinder.006</field>
+                    </shadow>
+                  </value>
+                </block>
+              </value>
+              <next>
+                <block type="show" id="=@g0pEB`px^6P^{,uo;X">
+                  <value name="VALUE">
+                    <shadow type="objectList">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="variables_get" id="=*D.3Y0AX_+ch.kk`,g%">
+                      <field name="VAR" id="16u[4Y#%ilOtTkU?;Yes">cloneyellow</field>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="procedures_callnoreturn" id="@yFZYy3EHCM({e$3lZV}">
+                      <mutation name="drag3"/>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <next>
+            <block type="eventHTMLElem" id="He2;r{jOPj}-WDCbWAC+">
+              <field name="EVENT">dblclick</field>
+              <field name="PARENT">FALSE</field>
+              <value name="ID">
+                <shadow type="text" id="Y!lB*eC??DNF0lby!e#$">
+                  <field name="TEXT">Blue</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="variables_set" id="v*-?Lz}T5yP2wQ0WY9u%">
+                  <field name="VAR" id="Aeo{xUs!_KYI_F`*:/B$">cloneblue</field>
+                  <value name="VALUE">
+                    <block type="cloneObject" id="RxYqzF=zN4wQwL#.6Gab">
+                      <value name="OBJECTINPUT">
+                        <shadow type="objectList" id="/+f~viV/eyL|s*FN5enu">
+                          <field name="FIELDNAME">Cylinder.005</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="show" id="}~!MU3kOX.]3r_pPcF!Z">
+                      <value name="VALUE">
+                        <shadow type="objectList">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
+                        </shadow>
+                        <block type="variables_get" id="AgRj~tJ*AwBFK{v+RGHE">
+                          <field name="VAR" id="Aeo{xUs!_KYI_F`*:/B$">cloneblue</field>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="procedures_callnoreturn" id="`B53?m$6N9%J|ImvmU(.">
+                          <mutation name="drag2"/>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+              <next>
+                <block type="eventHTMLElem" id="PW*|MgeEH1Hy-?0J~EN:">
+                  <field name="EVENT">dblclick</field>
+                  <field name="PARENT">FALSE</field>
+                  <value name="ID">
+                    <shadow type="text" id="0g3-Y}zmm(%4ufZ~U[=4">
+                      <field name="TEXT">Red</field>
+                    </shadow>
+                  </value>
+                  <statement name="DO">
+                    <block type="variables_set" id="SL;5`Q?/e_H9aGeLG)q6">
+                      <field name="VAR" id="%S;0(6Hw=-+c(]cer~s,">clonered</field>
+                      <value name="VALUE">
+                        <block type="cloneObject" id="%u9HF4lF`wi@CAU9d^z2">
+                          <value name="OBJECTINPUT">
+                            <shadow type="objectList" id="P1n!)5WI+m[@pg0u~jA8">
+                              <field name="FIELDNAME">Cylinder.001</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="show" id="yL@pF?DWU*zN+.?=:6Jn">
+                          <value name="VALUE">
+                            <shadow type="objectList">
+                              <field name="FIELDNAME">&lt;none&gt;</field>
+                            </shadow>
+                            <block type="variables_get" id="Z!Go#y3Xn$fO[TP?ou^2">
+                              <field name="VAR" id="%S;0(6Hw=-+c(]cer~s,">clonered</field>
+                            </block>
+                          </value>
+                          <next>
+                            <block type="procedures_callnoreturn" id="!WNZ|+pi9Uq3MH~3vL!3">
+                              <mutation name="drag4"/>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </statement>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="TBQN32:5pfYsYVN!pD-T" x="-610" y="1190">
+      <field name="VAR" id="HLw1*Pp19J~m2u46R?vg">dictred</field>
+      <value name="VALUE">
+        <block type="dictCreateEmpty" id="pQv9cnci)WjIQ71KVl/F"/>
+      </value>
+      <next>
+        <block type="dictSet" id="k6pwpdQ~k#Yx54qtN_;M">
+          <value name="DICT">
+            <block type="variables_get" id="#W+dgEI5TLNSTqAX40;c">
+              <field name="VAR" id="HLw1*Pp19J~m2u46R?vg">dictred</field>
+            </block>
+          </value>
+          <value name="KEY">
+            <shadow type="text" id="W[oBg`g,{|qWig.ZF8,T">
+              <field name="TEXT">x1</field>
+            </shadow>
+          </value>
+          <value name="VALUE">
+            <block type="getObjTransform" id="]MhVxs9Bxed+6w5!OBYV">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
+              <field name="MODE">position</field>
+              <field name="COORD">x</field>
+              <value name="TARGETOBJ">
+                <shadow type="objectList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="variables_get" id="i7XM4Z4$7q!M0FJm4xW_">
+                  <field name="VAR" id="HLw1*Pp19J~m2u46R?vg">dictred</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <next>
+            <block type="dictSet" id="I^OrCV]L*j/=]Psn*@A;">
+              <value name="DICT">
+                <block type="variables_get" id="tyuZ_jl`|mfkebr%U-jR">
+                  <field name="VAR" id="HLw1*Pp19J~m2u46R?vg">dictred</field>
+                </block>
+              </value>
+              <value name="KEY">
+                <shadow type="text" id="@7qN!kn%3eXe8ujE,-c.">
+                  <field name="TEXT">y1</field>
+                </shadow>
+              </value>
+              <value name="VALUE">
+                <block type="getObjTransform" id="xtw7G!+GHkMsi25e]OiT">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
+                  <field name="MODE">position</field>
+                  <field name="COORD">y</field>
+                  <value name="TARGETOBJ">
+                    <shadow type="objectList">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="variables_get" id="xF@hwX|X5B1A=^vCK~/{">
+                      <field name="VAR" id="HLw1*Pp19J~m2u46R?vg">dictred</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+              <next>
+                <block type="dictSet" id="{!g;/21hQSXuArf7(JOu">
+                  <value name="DICT">
+                    <block type="variables_get" id="nLXlP)O(i+p$kt+oZxJG">
+                      <field name="VAR" id="HLw1*Pp19J~m2u46R?vg">dictred</field>
+                    </block>
+                  </value>
+                  <value name="KEY">
+                    <shadow type="text" id="P:ihAFCH[zzE{`lWQyJ-">
+                      <field name="TEXT">z1</field>
+                    </shadow>
+                  </value>
+                  <value name="VALUE">
+                    <block type="getObjTransform" id="At9HKc*]M{MG{T}BCY--">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
+                      <field name="MODE">position</field>
+                      <field name="COORD">z</field>
+                      <value name="TARGETOBJ">
+                        <shadow type="objectList">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
+                        </shadow>
+                        <block type="variables_get" id="xxP;GKpC~_g_h]!S]oYk">
+                          <field name="VAR" id="HLw1*Pp19J~m2u46R?vg">dictred</field>
+                        </block>
+                      </value>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="variables_set" id="k/5Fh5T8VLp}$_cA?eD?">
+                      <field name="VAR" id="`{XP[S#tVCiHN?@Hi`^y">dictblack</field>
+                      <value name="VALUE">
+                        <block type="dictCreateEmpty" id="#:clV|~Rx/8t3E,StP4j"/>
+                      </value>
+                      <next>
+                        <block type="dictSet" id="2~b-%.K?|l$(8hn;Jk[L">
+                          <value name="DICT">
+                            <block type="variables_get" id="}P[VlpG.%5|1l,a|6)Hd">
+                              <field name="VAR" id="`{XP[S#tVCiHN?@Hi`^y">dictblack</field>
+                            </block>
+                          </value>
+                          <value name="KEY">
+                            <shadow type="text" id="rr2cg~qfVC_3]{/hr^J1">
+                              <field name="TEXT">x2</field>
+                            </shadow>
+                          </value>
+                          <value name="VALUE">
+                            <block type="getObjTransform" id="(-[-z;2lOUEE[~-+!7zS">
+                              <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
+                              <field name="MODE">position</field>
+                              <field name="COORD">x</field>
+                              <value name="TARGETOBJ">
+                                <shadow type="objectList">
+                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                </shadow>
+                                <block type="variables_get" id="!]+]ldIw}?9%QN5N;e5J">
+                                  <field name="VAR" id="`{XP[S#tVCiHN?@Hi`^y">dictblack</field>
+                                </block>
+                              </value>
+                            </block>
+                          </value>
+                          <next>
+                            <block type="dictSet" id="so]/.agyeYGNwDyB;=Yg">
+                              <value name="DICT">
+                                <block type="variables_get" id="=|}?XWe+Ieepy2#:a$Od">
+                                  <field name="VAR" id="`{XP[S#tVCiHN?@Hi`^y">dictblack</field>
+                                </block>
+                              </value>
+                              <value name="KEY">
+                                <shadow type="text" id="R{DLltjns4g)mcV=(zg?">
+                                  <field name="TEXT">y2</field>
+                                </shadow>
+                              </value>
+                              <value name="VALUE">
+                                <block type="getObjTransform" id=";W[Z%0=]k;mldM=A7xYp">
+                                  <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
+                                  <field name="MODE">position</field>
+                                  <field name="COORD">y</field>
+                                  <value name="TARGETOBJ">
+                                    <shadow type="objectList">
+                                      <field name="FIELDNAME">&lt;none&gt;</field>
+                                    </shadow>
+                                    <block type="variables_get" id="GV8i=d!opN~Di!EzAx8~">
+                                      <field name="VAR" id="`{XP[S#tVCiHN?@Hi`^y">dictblack</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <next>
+                                <block type="dictSet" id="_OeGlJ@8A?-D7B2/f%oI">
+                                  <value name="DICT">
+                                    <block type="variables_get" id="Nv^-b(WD.V,ap/OR$=*{">
+                                      <field name="VAR" id="`{XP[S#tVCiHN?@Hi`^y">dictblack</field>
+                                    </block>
+                                  </value>
+                                  <value name="KEY">
+                                    <shadow type="text" id="zkZ:K_-F-Es^v0VQ|~[L">
+                                      <field name="TEXT">z2</field>
+                                    </shadow>
+                                  </value>
+                                  <value name="VALUE">
+                                    <block type="getObjTransform" id="cW);p?mExdZo04PzbN6Y">
+                                      <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
+                                      <field name="MODE">position</field>
+                                      <field name="COORD">z</field>
+                                      <value name="TARGETOBJ">
+                                        <shadow type="objectList">
+                                          <field name="FIELDNAME">&lt;none&gt;</field>
+                                        </shadow>
+                                        <block type="variables_get" id="AVlicijN}83u1FtGG!G3">
+                                          <field name="VAR" id="`{XP[S#tVCiHN?@Hi`^y">dictblack</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <next>
+                                    <block type="variables_set" id="OYzb(rL4)+9@fm5357H|">
+                                      <field name="VAR" id="3W_(MV4^;:IQ?o0-FQnn">dictyellow</field>
+                                      <value name="VALUE">
+                                        <block type="dictCreateEmpty" id="Z/%Mfkj}w-w[]d%4V38r"/>
+                                      </value>
+                                      <next>
+                                        <block type="dictSet" id="Q(EHuA)]6f|;=|-oNrqr">
+                                          <value name="DICT">
+                                            <block type="variables_get" id="n|TX}jVg8@hlMzmXlh}/">
+                                              <field name="VAR" id="3W_(MV4^;:IQ?o0-FQnn">dictyellow</field>
+                                            </block>
+                                          </value>
+                                          <value name="KEY">
+                                            <shadow type="text" id="s/EcQYqp)hG!2z8D?NC-">
+                                              <field name="TEXT">x3</field>
+                                            </shadow>
+                                          </value>
+                                          <value name="VALUE">
+                                            <block type="getObjTransform" id="kj[slMHT[YiKV0W?{17/">
+                                              <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
+                                              <field name="MODE">position</field>
+                                              <field name="COORD">x</field>
+                                              <value name="TARGETOBJ">
+                                                <shadow type="objectList">
+                                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                                </shadow>
+                                                <block type="variables_get" id="=of~_$*CKRpq?w_d0idl">
+                                                  <field name="VAR" id="3W_(MV4^;:IQ?o0-FQnn">dictyellow</field>
+                                                </block>
+                                              </value>
+                                            </block>
+                                          </value>
+                                          <next>
+                                            <block type="dictSet" id="^Vs,iB~lD|lPy`%=bDp|">
+                                              <value name="DICT">
+                                                <block type="variables_get" id="~{}})!sHaI9Su%o}E5!}">
+                                                  <field name="VAR" id="3W_(MV4^;:IQ?o0-FQnn">dictyellow</field>
+                                                </block>
+                                              </value>
+                                              <value name="KEY">
+                                                <shadow type="text" id="^HC:sEm)Dq)i0L(|E.jm">
+                                                  <field name="TEXT">y3</field>
+                                                </shadow>
+                                              </value>
+                                              <value name="VALUE">
+                                                <block type="getObjTransform" id="j7jT2|+87fR=v^`$w|mS">
+                                                  <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
+                                                  <field name="MODE">position</field>
+                                                  <field name="COORD">y</field>
+                                                  <value name="TARGETOBJ">
+                                                    <shadow type="objectList">
+                                                      <field name="FIELDNAME">&lt;none&gt;</field>
+                                                    </shadow>
+                                                    <block type="variables_get" id="9#MZ8(A8M9@1b6(0o;yl">
+                                                      <field name="VAR" id="3W_(MV4^;:IQ?o0-FQnn">dictyellow</field>
+                                                    </block>
+                                                  </value>
+                                                </block>
+                                              </value>
+                                              <next>
+                                                <block type="dictSet" id="henTj0`c%1Tdi?RlQI+d">
+                                                  <value name="DICT">
+                                                    <block type="variables_get" id="LWI-Yf1`(hQoBG!e8?`N">
+                                                      <field name="VAR" id="3W_(MV4^;:IQ?o0-FQnn">dictyellow</field>
+                                                    </block>
+                                                  </value>
+                                                  <value name="KEY">
+                                                    <shadow type="text" id="lKosiqs]qvKb-{?p7dE^">
+                                                      <field name="TEXT">z3</field>
+                                                    </shadow>
+                                                  </value>
+                                                  <value name="VALUE">
+                                                    <block type="getObjTransform" id="uJcj-uiTZ(:F1J77:hH5">
+                                                      <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
+                                                      <field name="MODE">position</field>
+                                                      <field name="COORD">z</field>
+                                                      <value name="TARGETOBJ">
+                                                        <shadow type="objectList">
+                                                          <field name="FIELDNAME">&lt;none&gt;</field>
+                                                        </shadow>
+                                                        <block type="variables_get" id="AeJcMm%+ji3fd,r=I`@t">
+                                                          <field name="VAR" id="3W_(MV4^;:IQ?o0-FQnn">dictyellow</field>
+                                                        </block>
+                                                      </value>
+                                                    </block>
+                                                  </value>
+                                                  <next>
+                                                    <block type="variables_set" id="!wVLi*glmyKcrT1lP0r|">
+                                                      <field name="VAR" id="Al3[r?$a?XQ/y]61u8/~">dictblue</field>
+                                                      <value name="VALUE">
+                                                        <block type="dictCreateEmpty" id="6-32(iG-]EQB*GfU+u#C"/>
+                                                      </value>
+                                                      <next>
+                                                        <block type="dictSet" id="|?XA~R|ieW6jUwT^#ZQE">
+                                                          <value name="DICT">
+                                                            <block type="variables_get" id="Hn8y_=,(_n*`n%TPls`M">
+                                                              <field name="VAR" id="Aeo{xUs!_KYI_F`*:/B$">cloneblue</field>
+                                                            </block>
+                                                          </value>
+                                                          <value name="KEY">
+                                                            <shadow type="text" id="vQPR_uPNr1bK0PqJA)CZ">
+                                                              <field name="TEXT">x4</field>
+                                                            </shadow>
+                                                          </value>
+                                                          <value name="VALUE">
+                                                            <block type="getObjTransform" id="h{:HQD@x.%{dotFL|,%u">
+                                                              <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
+                                                              <field name="MODE">position</field>
+                                                              <field name="COORD">x</field>
+                                                              <value name="TARGETOBJ">
+                                                                <shadow type="objectList">
+                                                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                                                </shadow>
+                                                                <block type="variables_get" id="Nw=?o+;hUY$sw7[4-v[Z">
+                                                                  <field name="VAR" id="Al3[r?$a?XQ/y]61u8/~">dictblue</field>
+                                                                </block>
+                                                              </value>
+                                                            </block>
+                                                          </value>
+                                                          <next>
+                                                            <block type="dictSet" id=".g:UN_,lLFqMo4lHZ}b/">
+                                                              <value name="DICT">
+                                                                <block type="variables_get" id="KC`JkVE4|ZLp/_6t(2SW">
+                                                                  <field name="VAR" id="Al3[r?$a?XQ/y]61u8/~">dictblue</field>
+                                                                </block>
+                                                              </value>
+                                                              <value name="KEY">
+                                                                <shadow type="text" id="/Gii;i(iKt*hOUg+Mb}y">
+                                                                  <field name="TEXT">y4</field>
+                                                                </shadow>
+                                                              </value>
+                                                              <value name="VALUE">
+                                                                <block type="getObjTransform" id="waw=fI[y(QjLEGQ,al${">
+                                                                  <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
+                                                                  <field name="MODE">position</field>
+                                                                  <field name="COORD">y</field>
+                                                                  <value name="TARGETOBJ">
+                                                                    <shadow type="objectList">
+                                                                      <field name="FIELDNAME">&lt;none&gt;</field>
+                                                                    </shadow>
+                                                                    <block type="variables_get" id="o_e?Tbe8#o8NgIgFV]/4">
+                                                                      <field name="VAR" id="Al3[r?$a?XQ/y]61u8/~">dictblue</field>
+                                                                    </block>
+                                                                  </value>
+                                                                </block>
+                                                              </value>
+                                                              <next>
+                                                                <block type="dictSet" id="cERcr4^ontE]+Fi)]q~3">
+                                                                  <value name="DICT">
+                                                                    <block type="variables_get" id="z;jf@V93jJl*qA:L)mY4">
+                                                                      <field name="VAR" id="Al3[r?$a?XQ/y]61u8/~">dictblue</field>
+                                                                    </block>
+                                                                  </value>
+                                                                  <value name="KEY">
+                                                                    <shadow type="text" id="a)Rqr9^Vze,}lmnT1cxh">
+                                                                      <field name="TEXT">z4</field>
+                                                                    </shadow>
+                                                                  </value>
+                                                                  <value name="VALUE">
+                                                                    <block type="getObjTransform" id="Y@GawE6=O5g5_zs*$4~=">
+                                                                      <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
+                                                                      <field name="MODE">position</field>
+                                                                      <field name="COORD">z</field>
+                                                                      <value name="TARGETOBJ">
+                                                                        <shadow type="objectList">
+                                                                          <field name="FIELDNAME">&lt;none&gt;</field>
+                                                                        </shadow>
+                                                                        <block type="variables_get" id="LS5eFr5;BC;B[@j@aAG6">
+                                                                          <field name="VAR" id="Al3[r?$a?XQ/y]61u8/~">dictblue</field>
+                                                                        </block>
+                                                                      </value>
+                                                                    </block>
+                                                                  </value>
+                                                                </block>
+                                                              </next>
+                                                            </block>
+                                                          </next>
+                                                        </block>
+                                                      </next>
+                                                    </block>
+                                                  </next>
+                                                </block>
+                                              </next>
+                                            </block>
+                                          </next>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="addAnnotation" id=")_i@[Ns=UD(H7ip{g:RN" x="-610" y="1930">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+      <value name="ANNOTATION">
+        <shadow type="text" id=".uuF9w{i-5tkFOFz$(wq">
+          <field name="TEXT">Help!</field>
+        </shadow>
+      </value>
+      <value name="TARGET">
+        <shadow type="objectList" id="+7N-9h(v3@T]8xILHfBS">
+          <field name="FIELDNAME">Plane</field>
+        </shadow>
+      </value>
+      <value name="CONTENTS">
+        <shadow type="text">
+          <field name="TEXT">Point of interest #1</field>
+        </shadow>
+        <block type="text_join" id="VO^*2{ah-QjqG-FnP6NP">
+          <mutation items="2"/>
+          <value name="ADD0">
+            <block type="text" id="W%02x,jot6zK%f:kP*-y">
+              <field name="TEXT">A user can only use the block of same colour,</field>
+            </block>
+          </value>
+          <value name="ADD1">
+            <block type="text" id="b,h3[T8kdhx+9hm^/o07">
+              <field name="TEXT">if the user wants the block they can get it by double cllicking on the block</field>
+            </block>
+          </value>
+        </block>
+      </value>
+      <value name="ID">
+        <shadow type="text" id=":1b^kI5Cp,b.MjImIW~r">
+          <field name="TEXT">poi1</field>
+        </shadow>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id="^:i]=H[]W:0=7H,a]p#^" x="-590" y="2050">
+      <field name="NAME">drag3</field>
+      <comment pinned="false" h="80" w="160">Describe this function...</comment>
+      <statement name="STACK">
+        <block type="whenClicked" id="l37G7vGogE@GHj8|(=jw">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <field name="DOUBLE_CLICK">FALSE</field>
+          <field name="LEFT_BUTTON">TRUE</field>
+          <field name="MIDDLE_BUTTON">TRUE</field>
+          <field name="RIGHT_BUTTON">TRUE</field>
+          <value name="VALUE">
+            <shadow type="objectList">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="allObjectList" id="}fY$!F54R;-BmMm8aSJq"/>
+          </value>
+          <statement name="DO">
+            <block type="whenDraggedOver" id="w#(b8k6a!W}QFKdpF.11">
+              <field name="X_RAY">FALSE</field>
+              <field name="LEFT_BUTTON">TRUE</field>
+              <field name="MIDDLE_BUTTON">TRUE</field>
+              <field name="RIGHT_BUTTON">TRUE</field>
+              <value name="VALUE">
+                <shadow type="objectList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="variables_get" id="BwR8s:-8@:Wlmcz3SAy=">
+                  <field name="VAR" id="16u[4Y#%ilOtTkU?;Yes">cloneyellow</field>
+                </block>
+              </value>
+              <statement name="DO_MOVE">
+                <block type="dragMove" id="]2Sn:Z0E2zRrZJstCP5N">
+                  <field name="MODE">XYZ</field>
+                  <value name="TARGETOBJ">
+                    <shadow type="objectList">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="variables_get" id="*!3*tpGKD{$2~N-gkDw[">
+                      <field name="VAR" id="16u[4Y#%ilOtTkU?;Yes">cloneyellow</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+              <next>
+                <block type="objConstraintAddLimit" id="GtcI*KUKU_GIyLF7Yq+(">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" mode="POS_Z"></mutation>
+                  <field name="MODE">POS_Z</field>
+                  <field name="DIST_LIMIT_MODE">LIMITDIST_ONSURFACE</field>
+                  <value name="CONSTRAINT">
+                    <shadow type="text" id="vWHgZ]0`SeK.YdhdSH^|">
+                      <field name="TEXT">myConst1</field>
+                    </shadow>
+                  </value>
+                  <value name="TARGETOBJ">
+                    <shadow type="objectList">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="variables_get" id="z~3?%:E}]K/r~8K57Hy(">
+                      <field name="VAR" id="16u[4Y#%ilOtTkU?;Yes">cloneyellow</field>
+                    </block>
+                  </value>
+                  <value name="MIN">
+                    <shadow type="math_number" id="Z%p.|oPG-[n=ic$X#eCR">
+                      <field name="NUM">1.70602</field>
+                    </shadow>
+                  </value>
+                  <value name="MAX">
+                    <shadow type="math_number" id="Ue{_QQcx;+0IaL8Z/eg-">
+                      <field name="NUM">12</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id="y{O@wRJZQP78r5,3`k:V" x="-610" y="2270">
+      <field name="NAME">drag1</field>
+      <comment pinned="false" h="80" w="160">Describe this function...</comment>
+      <statement name="STACK">
+        <block type="whenClicked" id="2-HG0_)9(Z,}jjW#g5]Z">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <field name="DOUBLE_CLICK">FALSE</field>
+          <field name="LEFT_BUTTON">TRUE</field>
+          <field name="MIDDLE_BUTTON">TRUE</field>
+          <field name="RIGHT_BUTTON">TRUE</field>
+          <value name="VALUE">
+            <shadow type="objectList">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="allObjectList" id="b4#O._YnPOC.(i^BXx,O"/>
+          </value>
+          <statement name="DO">
+            <block type="whenDraggedOver" id="apwsa`cfcne:{L+-#Z/o">
+              <field name="X_RAY">FALSE</field>
+              <field name="LEFT_BUTTON">TRUE</field>
+              <field name="MIDDLE_BUTTON">TRUE</field>
+              <field name="RIGHT_BUTTON">TRUE</field>
+              <value name="VALUE">
+                <shadow type="objectList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="variables_get" id="^fLpAhIOl3M4XP`wf/k_">
+                  <field name="VAR" id="mBc7?8n;@1WgMgWKQgK/">cloneblack</field>
+                </block>
+              </value>
+              <statement name="DO_MOVE">
+                <block type="dragMove" id="{RTm,CT_)?S]U_$22C8#">
+                  <field name="MODE">XYZ</field>
+                  <value name="TARGETOBJ">
+                    <shadow type="objectList">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="variables_get" id="/_wZb#Tlq(9(7XfVm@_-">
+                      <field name="VAR" id="mBc7?8n;@1WgMgWKQgK/">cloneblack</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+              <next>
+                <block type="objConstraintAddLimit" id="2eXEijzRrz,Q7~CB5.CM">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" mode="POS_Z"></mutation>
+                  <field name="MODE">POS_Z</field>
+                  <field name="DIST_LIMIT_MODE">LIMITDIST_ONSURFACE</field>
+                  <value name="CONSTRAINT">
+                    <shadow type="text" id="z^,RX4(WIheW?7DzNv!)">
+                      <field name="TEXT">myConst1</field>
+                    </shadow>
+                  </value>
+                  <value name="TARGETOBJ">
+                    <shadow type="objectList">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="variables_get" id="l;J6SN8U@4wvVFMg`sgQ">
+                      <field name="VAR" id="mBc7?8n;@1WgMgWKQgK/">cloneblack</field>
+                    </block>
+                  </value>
+                  <value name="MIN">
+                    <shadow type="math_number" id="vYJbearU1`1sdK#;^=;o">
+                      <field name="NUM">1.70602</field>
+                    </shadow>
+                  </value>
+                  <value name="MAX">
+                    <shadow type="math_number" id="Wmx~jj+rX}z)vYh}2/`t">
+                      <field name="NUM">12</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id="T![Bc??]Q395%ec}jrhB" x="-590" y="2490">
+      <field name="NAME">drag4</field>
+      <comment pinned="false" h="80" w="160">Describe this function...</comment>
+      <statement name="STACK">
+        <block type="whenClicked" id="(7%G*@*{c~$v1]eq?B,(">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <field name="DOUBLE_CLICK">FALSE</field>
+          <field name="LEFT_BUTTON">TRUE</field>
+          <field name="MIDDLE_BUTTON">TRUE</field>
+          <field name="RIGHT_BUTTON">TRUE</field>
+          <value name="VALUE">
+            <shadow type="objectList">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="allObjectList" id="8zCF=oS+_b)3e@3#4UKV"/>
+          </value>
+          <statement name="DO">
+            <block type="whenDraggedOver" id="_GUFs(%?qX4I$Ay8w}DG">
+              <field name="X_RAY">FALSE</field>
+              <field name="LEFT_BUTTON">TRUE</field>
+              <field name="MIDDLE_BUTTON">TRUE</field>
+              <field name="RIGHT_BUTTON">TRUE</field>
+              <value name="VALUE">
+                <shadow type="objectList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="variables_get" id="sBa_v]Hk+qO@_Ldv8S4!">
+                  <field name="VAR" id="%S;0(6Hw=-+c(]cer~s,">clonered</field>
+                </block>
+              </value>
+              <statement name="DO_MOVE">
+                <block type="dragMove" id="UuV8=|lN(Ha~wo{5CcA6">
+                  <field name="MODE">XYZ</field>
+                  <value name="TARGETOBJ">
+                    <shadow type="objectList">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="variables_get" id="lweKMJehT3#sVya]-8$N">
+                      <field name="VAR" id="%S;0(6Hw=-+c(]cer~s,">clonered</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+              <next>
+                <block type="objConstraintAddLimit" id="52biwrIx=[0F~l}cMs4+">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" mode="POS_Z"></mutation>
+                  <field name="MODE">POS_Z</field>
+                  <field name="DIST_LIMIT_MODE">LIMITDIST_ONSURFACE</field>
+                  <value name="CONSTRAINT">
+                    <shadow type="text" id="`mkd,Gn2.~DK~_NIT#,A">
+                      <field name="TEXT">myConst1</field>
+                    </shadow>
+                  </value>
+                  <value name="TARGETOBJ">
+                    <shadow type="objectList">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="variables_get" id="z%0KHNV~K3+PTLKA$^bn">
+                      <field name="VAR" id="%S;0(6Hw=-+c(]cer~s,">clonered</field>
+                    </block>
+                  </value>
+                  <value name="MIN">
+                    <shadow type="math_number" id=".,J[bfs-z:I1[1Fx8^5+">
+                      <field name="NUM">1.70602</field>
+                    </shadow>
+                  </value>
+                  <value name="MAX">
+                    <shadow type="math_number" id="+*]nVdoMmV+t/a|@`by_">
+                      <field name="NUM">12</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id="SHG_653uF(Zvv_A3]{o!" x="-610" y="2710">
+      <field name="NAME">drag2</field>
+      <comment pinned="false" h="80" w="160">Describe this function...</comment>
+      <statement name="STACK">
+        <block type="whenClicked" id="^Z!]#xNL,wInSSuK,:^I">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <field name="DOUBLE_CLICK">FALSE</field>
+          <field name="LEFT_BUTTON">TRUE</field>
+          <field name="MIDDLE_BUTTON">TRUE</field>
+          <field name="RIGHT_BUTTON">TRUE</field>
+          <value name="VALUE">
+            <shadow type="objectList">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="allObjectList" id="EpGQt[JKn/%0pLeRA47?"/>
+          </value>
+          <statement name="DO">
+            <block type="whenDraggedOver" id="pD,hdJ}S25|rK/l,o+Dx">
+              <field name="X_RAY">FALSE</field>
+              <field name="LEFT_BUTTON">TRUE</field>
+              <field name="MIDDLE_BUTTON">TRUE</field>
+              <field name="RIGHT_BUTTON">TRUE</field>
+              <value name="VALUE">
+                <shadow type="objectList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="variables_get" id="23CTCVrCsy.1_@D~H)PX">
+                  <field name="VAR" id="Aeo{xUs!_KYI_F`*:/B$">cloneblue</field>
+                </block>
+              </value>
+              <statement name="DO_MOVE">
+                <block type="dragMove" id="^8+HVnO[X!HlI!esI#/]">
+                  <field name="MODE">XYZ</field>
+                  <value name="TARGETOBJ">
+                    <shadow type="objectList">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="variables_get" id="p4D)qL0lp%}Vg+KokvZY">
+                      <field name="VAR" id="Aeo{xUs!_KYI_F`*:/B$">cloneblue</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+              <next>
+                <block type="objConstraintAddLimit" id="Gd;vihQ6AXsIEF*-TRLe">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" mode="POS_Z"></mutation>
+                  <field name="MODE">POS_Z</field>
+                  <field name="DIST_LIMIT_MODE">LIMITDIST_ONSURFACE</field>
+                  <value name="CONSTRAINT">
+                    <shadow type="text" id="(7|IpEGW)8+z++H*S{3?">
+                      <field name="TEXT">myConst1</field>
+                    </shadow>
+                  </value>
+                  <value name="TARGETOBJ">
+                    <shadow type="objectList">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="variables_get" id="*7wa@BZEL@tpt#hM}n8)">
+                      <field name="VAR" id="Aeo{xUs!_KYI_F`*:/B$">cloneblue</field>
+                    </block>
+                  </value>
+                  <value name="MIN">
+                    <shadow type="math_number" id="SHR8pc%ojF0)Z(]x)S#F">
+                      <field name="NUM">1.70602</field>
+                    </shadow>
+                  </value>
+                  <value name="MAX">
+                    <shadow type="math_number" id=",=(L|ve+4ecR.`oitKe-">
+                      <field name="NUM">12</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="addHTMLElement" id="bj+rJOs)?d0T2xA*|cE." x="-670" y="3030">
+      <field name="ELEMENT">button</field>
+      <field name="MODE">TO</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="gt4,.qm,{I9OE,*bo)T.">
+          <field name="TEXT">button1</field>
+        </shadow>
+      </value>
+      <value name="TARGET_ID">
+        <shadow type="DOMObjectSelector" id="c.Y5y`G{3ZwlzhMv8*)|">
+          <field name="DOM_OBJECT">CONTAINER</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="setHTMLElemStyle" id="OlDi?|LJbSig4u7ekN-s">
+          <field name="PROPERTY">position</field>
+          <field name="PARENT">FALSE</field>
+          <value name="VALUE">
+            <block type="text" id="pg~|z,9y:8/Lj+yf|N^+">
+              <field name="TEXT">static</field>
+            </block>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="i38,y`|43Pp?H4LHJgu8">
+              <field name="TEXT">button1</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setHTMLElemStyle" id="!Bt7whH%Q4C*_Vsjlbc(">
+              <field name="PROPERTY">backgroundColor</field>
+              <field name="PARENT">FALSE</field>
+              <value name="VALUE">
+                <block type="text" id="fqfn5)(UUDhYLL181khY">
+                  <field name="TEXT">White</field>
+                </block>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="fVaxiSt#4Sj;:/|0?5KH">
+                  <field name="TEXT">button1</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="setHTMLElemStyle" id="|C0~4J%dIB~ThCblYLm1">
+                  <field name="PROPERTY">height</field>
+                  <field name="PARENT">FALSE</field>
+                  <value name="VALUE">
+                    <block type="text" id="wkJGBK;;`{~`Nkq`WApz">
+                      <field name="TEXT">45px</field>
+                    </block>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="bWQv/uSo5hy~,=Id.qbA">
+                      <field name="TEXT">button1</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="setHTMLElemStyle" id="BVVst,/6+A^.WdZMI^IR">
+                      <field name="PROPERTY">width</field>
+                      <field name="PARENT">FALSE</field>
+                      <value name="VALUE">
+                        <block type="text" id="U.5!#^AHz|fmMFYvUU.`">
+                          <field name="TEXT">60px</field>
+                        </block>
+                      </value>
+                      <value name="ID">
+                        <shadow type="text" id="s+xc:(5d_uIPJ0Alvk^V">
+                          <field name="TEXT">button1</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="setHTMLElemAttribute" id="+rHB-(z7Nf{^|9m.|1zx">
+                          <field name="ATTRIBUTE">innerHTML</field>
+                          <field name="PARENT">FALSE</field>
+                          <value name="VALUE">
+                            <block type="text" id=",Fba:Z:T+1S/09~A0`H:">
+                              <field name="TEXT">Save</field>
+                            </block>
+                          </value>
+                          <value name="ID">
+                            <shadow type="text" id="[:qV]]+bb`:@N2W3fM!=">
+                              <field name="TEXT">button1</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="addHTMLElement" id="XoezA:pUmhg~c)(hu3#P" x="-330" y="3330">
+      <field name="ELEMENT">button</field>
+      <field name="MODE">TO</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="kFs[KVtc,V;S-5Zj.[|u">
+          <field name="TEXT">button2</field>
+        </shadow>
+      </value>
+      <value name="TARGET_ID">
+        <shadow type="DOMObjectSelector" id="Xm1.R.U#[QEAS?/D~.dO">
+          <field name="DOM_OBJECT">CONTAINER</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="setHTMLElemStyle" id="u!;SCoiLoPlAF43i/!@)">
+          <field name="PROPERTY">position</field>
+          <field name="PARENT">FALSE</field>
+          <value name="VALUE">
+            <block type="text" id="GB$,I3^gF/LST7Nnj4!#">
+              <field name="TEXT">static</field>
+            </block>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="AZ}*cb]kL^d1Q^[oJAss">
+              <field name="TEXT">button2</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setHTMLElemStyle" id="ufQ+(Iqt%%/@_`4ltpZ7">
+              <field name="PROPERTY">backgroundColor</field>
+              <field name="PARENT">FALSE</field>
+              <value name="VALUE">
+                <block type="text" id=".aI]d%=k4M}Q78jIbAp(">
+                  <field name="TEXT">Pink</field>
+                </block>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="3]O:418v:MGgeB*$0VF!">
+                  <field name="TEXT">button2</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="setHTMLElemStyle" id="K4hPVZ*dV=HnQxKoS]cy">
+                  <field name="PROPERTY">height</field>
+                  <field name="PARENT">FALSE</field>
+                  <value name="VALUE">
+                    <block type="text" id="+JXfh62p`-DD[Q(ny/kF">
+                      <field name="TEXT">45px</field>
+                    </block>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="EaL*20R3zuh8fmecL-Ig">
+                      <field name="TEXT">button2</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="setHTMLElemStyle" id=".yu%wR?-?MJbqabcy_-[">
+                      <field name="PROPERTY">width</field>
+                      <field name="PARENT">FALSE</field>
+                      <value name="VALUE">
+                        <block type="text" id="LiDdGv9YlA[H#GS6u(1[">
+                          <field name="TEXT">60px</field>
+                        </block>
+                      </value>
+                      <value name="ID">
+                        <shadow type="text" id="5_vr3fMSe/dq#(dm/.v*">
+                          <field name="TEXT">button2</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="setHTMLElemAttribute" id="DjRtZ#APUQebKvLY|6V{">
+                          <field name="ATTRIBUTE">innerHTML</field>
+                          <field name="PARENT">FALSE</field>
+                          <value name="VALUE">
+                            <block type="text" id=")tekib|Q0VgrZ55;1_:*">
+                              <field name="TEXT">Load</field>
+                            </block>
+                          </value>
+                          <value name="ID">
+                            <shadow type="text" id="vSHL4QH2H1FTd1R]zSI,">
+                              <field name="TEXT">button2</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="786.6" viewport-y="-9" viewport-w="546.4" viewport-h="320.5" viewport-hidden="false" toolbox-library-mode="true" toolbox-minimized-mode="false"></editorsettings>
+</xml>
