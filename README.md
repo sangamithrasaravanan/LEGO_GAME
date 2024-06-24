@@ -1,32 +1,34 @@
-USER STORY:LEGO BLOCK GAME
+## LEGO Block Game
 
-OBJECTIVE:As a player, I aim to creatively stack LEGO blocks, allowing for various shapes with the same colors to be placed on top of each other, enabling the construction of diverse structures.
+### Objective
+As a player, I aim to creatively stack LEGO blocks using Blender and Verge3D, allowing for various shapes with the same colors to be placed on top of each other, enabling the construction of diverse structures.
 
-SCENERIO Initial State Setup:
-1. Upon launching the game,
-2. When it begins, all LEGO blocks are concealed.
-3. Subsequently, a Color Box list is presented for player selection.
-User Interaction - Placing LEGO Blocks:
-1. Given the player can access the Color Box list,
-2. When a Color Box is selected,
-3. Consequently, the chosen LEGO block of that color appears on the floor.
-4. Players can then maneuver these blocks onto the tiles.
-5. Consequently, the selected LEGO block is positioned on the floor.
-Interactions with Placed LEGO Blocks:
-1. Given that the player has positioned at least one LEGO block of a specific color on the floor,
-2. When another Color Box is double-clicked from the list,
-3. As a result, a clone is generated on the LEGO block itself, necessitating the user to drag it for visibility.
-4. Consequently, players can move these blocks onto the tiles and construct them on top of each other.
-   
-ACCEPTANCE CRITERIA :
-1. At the outset of the game, all LEGO blocks are initially hidden.
-2. Upon game commencement, a Color Box list is presented for player selection.
-3. Clicking on a Color Box from the list should reveal the selected LEGO block of that color on the floor.
-4. Players should be able to maneuver the selected LEGO block onto the tiles successfully.
-5. Upon clicking, the selected LEGO block should be positioned on the floor.
-6. Following the placement of at least one LEGO block of a specific color on the floor, double-clicking on another Color Box from the list should produce a clone of the selected LEGO block.
-7. The clone of the LEGO block should materialize on the screen, allowing players to drag it into visibility.
-8. Players should be capable of moving these blocks onto the tiles and constructing them atop one another.
-9. The stacking of LEGO blocks should be permitted, and proper alignment ensured when placed on top of each other.
-10. The game should prevent the placement of LEGO blocks of different colors on top of each other.
-11. Appropriate error handling mechanisms should be integrated to assist players in the event of any unforeseen issues or errors encountered during gameplay.
+### Initial State Setup
+- Upon launching the game in Verge3D,
+- All LEGO blocks are initially hidden.
+- A Color Box list is presented for player selection.
+
+### User Interaction - Placing LEGO Blocks
+- Given access to the Color Box list in Verge3D,
+- When a Color Box is selected,
+- Consequently, the chosen LEGO block of that color appears on the floor using Blender and Verge3D tools.
+- Players can then use Verge3D to maneuver these blocks onto the tiles.
+
+### Interactions with Placed LEGO Blocks
+- Given that at least one LEGO block of a specific color is on the floor,
+- When another Color Box is double-clicked from the list,
+- As a result, a clone of the selected LEGO block is generated on the screen using Blender and Verge3D tools.
+- Players can use Verge3D to drag this clone for visibility and place it on the tiles to construct structures.
+
+### Acceptance Criteria
+1. All LEGO blocks are hidden initially upon launching the game in Verge3D.
+2. A Color Box list is provided for player selection at the start of the game using Blender and Verge3D.
+3. Clicking on a Color Box in Verge3D reveals the corresponding LEGO block of that color on the floor.
+4. Players can successfully maneuver and place LEGO blocks onto the tiles using Blender and Verge3D tools.
+5. The selected LEGO block is positioned accurately on the floor upon selection using Blender and Verge3D.
+6. Double-clicking another Color Box creates a clone of the selected LEGO block for placement using Blender and Verge3D tools.
+7. The clone of the LEGO block appears on the screen using Blender and Verge3D, allowing players to drag it into view and place it on the tiles.
+8. Players can stack LEGO blocks on top of each other using Verge3D, ensuring proper alignment and utilizing Blender's capabilities.
+9. The game restricts the stacking of LEGO blocks of different colors using Verge3D.
+10. Error handling mechanisms are implemented using Blender and Verge3D to assist players in case of unexpected issues during gameplay.
+
